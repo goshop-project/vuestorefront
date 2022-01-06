@@ -1,6 +1,6 @@
 export type TODO = unknown;
 
-export type Setttings = TODO;
+export * from './setup';
 
 export type Endpoints = TODO;
 
