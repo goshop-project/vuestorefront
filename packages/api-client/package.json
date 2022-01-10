@@ -1,7 +1,6 @@
 {
   "name": "@goshop/vsf-api",
   "version": "0.0.1",
-  "private": true,
   "sideEffects": false,
   "server": "server/index.js",
   "main": "lib/index.cjs.js",

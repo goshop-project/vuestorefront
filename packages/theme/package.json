@@ -1,7 +1,6 @@
 {
   "name": "@goshop/vsf-theme",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "build": "nuxt build -m",
     "build:analyze": "nuxt build -a -m",
