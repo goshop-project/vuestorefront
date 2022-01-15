@@ -1,0 +1,3 @@
+[submodule "packages/theme/goshop"]
+	path = packages/theme/goshop
+	url = ../vuestorefront-template
