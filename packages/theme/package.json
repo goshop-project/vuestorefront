@@ -7,6 +7,7 @@
     "build:analyze": "nuxt build -a -m",
     "dev": "nuxt",
     "generate": "nuxt generate",
+    "export": "if [ -e \"goshop/.git\" ]; then mv goshop/.git goshop.git && rm -rf goshop; fi; vsf generate-template goshop; [ ! -e \"goshop.git\" ] || mv goshop.git goshop/.git;",
     "lint": "eslint . --ext .ts,.vue",
     "lint:fix": "eslint . --ext .ts,.vue --fix",
     "precommit": "lint-staged",
@@ -33,6 +34,7 @@
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.8",
+    "@vue-storefront/cli": "^2.4.1",
     "@vue/test-utils": "^1.2.2",
     "babel-jest": "^27.3.1",
     "cypress": "^8.7.0",
