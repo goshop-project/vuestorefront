@@ -1,6 +1,7 @@
 {
   "name": "@goshop/vsf-theme",
   "version": "0.0.1",
+  "license": "MIT",
   "scripts": {
     "build": "nuxt build -m",
     "build:analyze": "nuxt build -a -m",
@@ -18,8 +19,8 @@
     "update:update": "ncu -u"
   },
   "dependencies": {
-    "@storefront-ui/vue": "0.11.4",
     "@goshop/vsf": "0.0.1",
+    "@storefront-ui/vue": "0.11.4",
     "@vue-storefront/middleware": "~2.5.3",
     "@vue-storefront/nuxt": "~2.5.3",
     "@vue-storefront/nuxt-theme": "~2.5.3",

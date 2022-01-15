@@ -1,6 +1,7 @@
 {
   "name": "@goshop/vsf-api",
   "version": "0.0.1",
+  "license": "MIT",
   "sideEffects": false,
   "server": "server/index.js",
   "main": "lib/index.cjs.js",
